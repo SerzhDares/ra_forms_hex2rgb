@@ -1,0 +1,25 @@
+#root {
+  margin: 0 auto;
+}
+
+.hexInput,
+.rgbResult {
+  box-sizing: border-box;
+  width: 205px;
+}
+
+.hexInput {
+  height: 50px;
+  font-size: 30px;
+  padding: 0 10px;
+}
+
+.rgbResult {
+  background-color: #fff;
+  color: #000;
+  font-size: 21px;
+  text-align: center;
+  padding: 10px;
+  min-height: 50px;
+  border: 2px solid rgb(118, 118, 118);
+}
